@@ -1,0 +1,126 @@
+body {
+    background-image: url(beautiful\ tree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.heading {
+    display:flex;
+    justify-content: center;
+
+}
+h1 {
+    margin-block-start:0;
+    margin-block-end:5px;
+    font-size: 60px;
+    color:#fff7d6;
+    text-shadow: 4px 4px 3px black;
+    padding:20px;
+    font-family: 'Rouge Script', cursive;
+    background-color: rgba(251, 248, 249, 0.39); 
+    border: 1px solid black;
+}
+.container {
+    display:flex;
+    justify-content: space-around;
+    /*flex-wrap: wrap;*/
+}
+
+
+h3{
+    font-size: 50px;
+    color:#fff7d6;
+    text-shadow: 4px 4px 3px black;
+    font-family: 'Rouge Script', cursive;
+}
+.christmas {
+    background-color: rgba(251, 248, 249, 0.39); 
+    margin: 1%;
+    width:250px;
+    height:350px;
+    border: 1px solid black;
+}
+
+.block {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.days, .hours, .minutes, .seconds {
+    font-size: 50px;
+    color: #fff7d6;
+    text-shadow: 2px 2px 4px black;
+    font-family: 'Rouge Script', cursive;
+}
+
+.merry {
+    font-size: 80px;
+    color:beige;
+    text-shadow: 4px 4px 3px black;
+    padding:20px;
+    font-family: 'Rouge Script', cursive;
+}
+
+button {
+    background: transparent;
+    border: 0;
+    /*margin-left: 100px;
+    margin-bottom: 50px;*/
+
+}
+
+img{
+    background-color: rgba(251, 248, 249, 0.39);
+    width:50px;
+
+}
+
+.musicButtonsContainter{
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    height: 50px;
+    color: #fff;
+    padding: 8px;
+    font-size: 16px;
+    text-align: center;
+}
+
+a {
+    color:white;
+}
+
+@media all and (max-width: 800px) {
+    h1 {
+        font-size:50px;
+    }
+    h3,h4{
+        margin: 0;
+    }
+    .container {
+        flex-wrap: wrap;
+    }
+    .christmas{
+        width:100%;
+        height: auto;
+    }
+    footer{
+    background: rgba(251, 248, 249, 0.39);
+    } 
+}
+@media all and (max-width: 500px) {
+    h1 {
+        font-size:40px;
+    }
+    h3,h4{
+        margin: 0;
+    }
+    .container {
+        flex-wrap: wrap;
+    }
+    
+}
+
